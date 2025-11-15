@@ -22,11 +22,26 @@ If your organization uses AWS IAM Identity Center (formerly AWS SSO):
 2. Sign in with your credentials
 3. Select the AWS account you want to access
 4. Click on "Access Keys"
-5. Copy the credentials from: "Option 1: Set AWS environment variables" and pastem them to the terminal
+5. Copy the credentials from: "Option 1: Set AWS environment variables" and paste them to the terminal
 
 📚 **Documentation**: [AWS IAM Identity Center](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html)
 
-### Configure AWS CLI Credentials
+### Verify Credentials
+
+After setting the environment variables, verify your credentials:
+
+```bash
+aws sts get-caller-identity
+```
+
+Expected output:
+```json
+{
+    "UserId": "AIDAXXXXXXXXXXXXXXXXX",
+    "Account": "123456789012",
+    "Arn": "arn:aws:iam::123456789012:user/your-username"
+}
+```
 
 ## Tool Installation
 
