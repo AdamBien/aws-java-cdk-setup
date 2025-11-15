@@ -6,7 +6,7 @@ Step-by-step configuration for AWS CDK with Java.
 
 Before starting, ensure you have the following installed:
 
-- **Java 25** - [Download Java](https://www.oracle.com/java/technologies/downloads/)
+- **Java 25** - [Download Java](https://www.oracle.com/java/technologies/downloads/) or [Amazon Corretto](https://aws.amazon.com/corretto/)
 - **Maven** - [Maven Installation Guide](https://maven.apache.org/install.html)
 - **Node.js** (v18 or later) - Required for CDK CLI - [Node.js Downloads](https://nodejs.org/)
 
@@ -128,6 +128,3 @@ cd aws-quarkus-lambda-function-url-cdk-plain
 Follow the deployment instructions in that repository to confirm your environment is properly configured.
 
 📚 **Documentation**: [Deploying CDK Applications](https://docs.aws.amazon.com/cdk/v2/guide/deploy.html)
-
-📚 **Documentation**: [AWS CLI Configuration Troubleshooting](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-troubleshooting.html)
-
